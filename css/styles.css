@@ -291,11 +291,15 @@ body {
         width: 200px;
         height: 250px; }
       .nosotros__container .nosotros__cards .flip-card .flip-card-inner .flip-card-back h2 {
-        font-size: 15px; }
+        font-size: 15px;
+        margin-bottom: 10px; }
       .nosotros__container .nosotros__cards .flip-card .flip-card-inner .flip-card-back p {
         font-size: 11px; }
       .nosotros__container .nosotros__cards .flip-card .flip-card-inner .flip-card-back img {
-        width: 50px; }
+        width: 45px; }
+      .nosotros__container .nosotros__cards .flip-card .flip-card-inner .flip-card-back a .ig__nosotros {
+        width: 30px;
+        margin-top: 5px; }
   .episodios__container {
     margin-top: 30px; }
     .episodios__container h2 {
@@ -316,6 +320,9 @@ body {
       margin-left: 30px; }
     .resenas-container .container__res__card {
       grid-auto-columns: 100%; }
+    .resenas-container .modal-dialog {
+      width: 85%;
+      margin: 20px auto; }
   .escribinos__container h2 {
     font-size: 32px;
     margin-left: 30px; }
